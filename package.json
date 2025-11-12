@@ -1,0 +1,27 @@
+{
+  "name": "n",
+  "version": "1.0.0",
+  "description": "PE-1.3 semana 3, asignatura Middleware.",
+  "keywords": [
+    "prcaticas",
+    "middleware",
+    "json",
+    "protof"
+  ],
+  "license": "ISC",
+  "author": "Jose Andres Quizhpe Leon",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "protobufjs": "^7.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
